@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Playwrite+TZ+Guides&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Cormorant", serif;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    list-style-type: none;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+nav ul li{
+    padding: 0 10px;
+}
+
+.image img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 8px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+}
+
+body{
+    font-family: "Cormorant", serif;
+    background-image: url('images/bg_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.login{
+    font-family: "Cormorant", serif;
+    background-color: rgb(23, 22, 22);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    color:white;
+    height: 350px;
+    width: 300px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but{
+    height: 25px;
+    width: 220px;
+    background-color: rgb(55, 100, 196);
+    color: wheat;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.but a{
+    text-decoration: none;
+    color:black;
+}
+
+.but{
+    cursor: pointer;
+}

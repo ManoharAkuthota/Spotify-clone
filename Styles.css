@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    font-family: "Merriweather", serif;
+}
+.list{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    width: 100vw;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.home{
+    margin-left: 40px;
+   cursor: pointer;
+}
+
+.about{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.bar{
+    margin-left: 150px;
+}
+
+.search {
+    background-color: blueviolet;
+    color: black;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(226, 220, 220);
+
+}
+
+.search input {
+    width: 460px;
+    height: 100%;
+    padding-left: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-right: 2px solid grey;
+    color: white;
+
+}
+
+.search i{
+    color: white;
+    margin-left: 3px;
+}
+
+.but{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.but a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    margin-left: 230px;
+
+}
+
+.container{
+    font-family: "Merriweather", serif;
+    display: flex;
+    align-items: center;
+}
+
+.sign{
+    margin-left: 30px;
+}
+
+.sidebar{
+    height: 80vh;
+    width: 25vw;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin:0 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.library{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.library h6{
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#icon{
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+.play{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:10px;
+    font-family: "Merriweather", serif;
+}
+
+.play button{
+    height: 35px;
+    width: 140px;
+    font-family: "Merriweather", serif;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.play h5{
+    margin-top: 10px;
+}
+.play h6{
+    margin-top: 10px;
+}
+
+.details{
+    font-family: "Merriweather", serif;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+
+.details h5{
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.AboutAds{
+    display: flex;
+    align-items: center;
+    font-family: "Merriweather", serif;
+    font-size: small;
+}
+
+.AboutAds h6{
+    margin: auto 15px;
+    cursor: pointer;
+}
+
+.cookie{
+    font-family: "Merriweather", serif;
+    margin:15px;
+    cursor: pointer;
+}
+
+.english{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.english h6{
+    margin-left: 8px;
+}
+
+.songContainer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 75vw;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.artist{
+    height: 32vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+
+.art{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.art h3:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+
+.art h5{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.art h5:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+
+.art h3{
+    cursor: pointer;
+}
+
+.names{
+    background-color:rgb(20, 20, 20) ;
+    color: white;
+    height: 100%;
+    width: 12vw;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.names a img{
+    width:100%;
+    height: 160px;
+    border-radius: 80px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.names h6{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.names h6:hover{
+    text-decoration: underline;
+}
+
+.names h5{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.names h5:hover{
+    text-decoration: underline;
+}
+
+.popular{
+    height: 32vh;
+    width: 100%;
+    background-color:rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+.song{
+    background-color:rgb(20, 20, 20) ;
+    color: white;
+    height: 100%;
+    width: 12vw;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.song a img{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.song h5{
+    cursor: pointer;
+    padding: 5px;
+}
+.song h5:hover{
+    text-decoration:underline;
+}
+.song h6{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.song h6:hover{
+    text-decoration: underline;
+}
+
+.foot{
+    background-color: black;
+    font-family: "Merriweather", serif;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    background-color: rgb(209, 93, 235);
+    margin: 15px;
+    height: 07vh;
+    color: white;
+    border-radius: 10px;
+}
+
+.free a button{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 600px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.free button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Merriweather", serif;
+}
+
+.data{
+    padding-left: 10px;
+}

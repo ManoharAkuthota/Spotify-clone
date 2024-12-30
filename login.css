@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+TZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Playwrite+TZ+Guides&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Cormorant", serif;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    list-style-type: none;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+nav ul li{
+    padding: 0 10px;
+}
+
+.image img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 8px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+}
+
+body{
+    font-family: "Cormorant", serif;
+    background-image: url('images/bg_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login{
+    font-family: "Cormorant", serif;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    background-color:rgba(33, 29, 29, 0.966);
+    border-radius: 25px;
+    color: white;
+    height: 350px;
+    width: 300px;
+}
+
+.login form{
+    padding: 25px;
+}
+
+.login button{
+    height: 25px;
+    width: 220px;
+    background-color: rgb(55, 100, 196);
+    color: wheat;
+}
+
+.login button:hover{
+    background-color: rgb(4, 23, 64);
+    color: aliceblue;
+
+}
+
+#user{
+    height: 25px;
+    width: 220px;
+}
+#pass{
+    height: 25px;
+    width: 220px;
+}
+
+.head{
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+#log a{
+    text-decoration: none;
+    color: black;
+}
+
+#sig a{
+    text-decoration: none;
+    color: black;
+}
+
+#log{
+    cursor: pointer;
+}
+
+#sig{
+    cursor: pointer;
+}
